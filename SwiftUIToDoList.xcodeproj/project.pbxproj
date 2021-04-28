@@ -16,6 +16,7 @@
 		377983B02639963500354AC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377983AE2639963500354AC9 /* LaunchScreen.storyboard */; };
 		377983BB2639963600354AC9 /* SwiftUIToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377983BA2639963600354AC9 /* SwiftUIToDoListTests.swift */; };
 		377983C62639963600354AC9 /* SwiftUIToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377983C52639963600354AC9 /* SwiftUIToDoListUITests.swift */; };
+		377983D726399A9600354AC9 /* ToDoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377983D626399A9600354AC9 /* ToDoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		377983C12639963600354AC9 /* SwiftUIToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377983C52639963600354AC9 /* SwiftUIToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoListUITests.swift; sourceTree = "<group>"; };
 		377983C72639963600354AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377983D626399A9600354AC9 /* ToDoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				377983B12639963500354AC9 /* Info.plist */,
 				377983A62639963100354AC9 /* SwiftUIToDoList.xcdatamodeld */,
 				377983AB2639963500354AC9 /* Preview Content */,
+				377983D626399A9600354AC9 /* ToDoService.swift */,
 			);
 			path = SwiftUIToDoList;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			files = (
 				377983A12639963100354AC9 /* AppDelegate.swift in Sources */,
 				377983A82639963100354AC9 /* SwiftUIToDoList.xcdatamodeld in Sources */,
+				377983D726399A9600354AC9 /* ToDoService.swift in Sources */,
 				377983A32639963100354AC9 /* SceneDelegate.swift in Sources */,
 				377983A52639963100354AC9 /* ContentView.swift in Sources */,
 			);
